@@ -1,0 +1,120 @@
+{
+ "py_lock": {
+  "lines": [
+   [
+    0.389,
+    "1 thread(s): counter = 2000000, 0.18 s"
+   ],
+   [
+    0.389,
+    "4 thread(s): counter = 2000000, 0.19 s"
+   ]
+  ],
+  "elapsed": 0.391
+ },
+ "mutex": {
+  "lines": [
+   [
+    0.984,
+    "Mutex,  8 threads: 8000000 in 983 ms"
+   ]
+  ],
+  "elapsed": 0.984
+ },
+ "atomic": {
+  "lines": [
+   [
+    0.122,
+    "Atomic, 8 threads: 8000000 in 114 ms"
+   ]
+  ],
+  "elapsed": 0.122
+ },
+ "bench": {
+  "lines": [
+   [
+    0.116,
+    "Mutex,  1 threads: 8000000 in 89 ms"
+   ],
+   [
+    0.155,
+    "Atomic, 1 threads: 8000000 in 37 ms"
+   ],
+   [
+    0.841,
+    "Mutex,  2 threads: 8000000 in 685 ms"
+   ],
+   [
+    0.953,
+    "Atomic, 2 threads: 8000000 in 111 ms"
+   ],
+   [
+    1.87,
+    "Mutex,  4 threads: 8000000 in 915 ms"
+   ],
+   [
+    1.993,
+    "Atomic, 4 threads: 8000000 in 122 ms"
+   ],
+   [
+    3.002,
+    "Mutex,  8 threads: 8000000 in 1007 ms"
+   ],
+   [
+    3.129,
+    "Atomic, 8 threads: 8000000 in 126 ms"
+   ]
+  ],
+  "elapsed": 3.13
+ },
+ "cas1": {
+  "lines": [],
+  "elapsed": 0.0
+ },
+ "cas2": {
+  "lines": [
+   [
+    0.42,
+    "counter = 8000000"
+   ],
+   [
+    0.42,
+    "retries = 4489106"
+   ]
+  ],
+  "elapsed": 0.42
+ },
+ "stack1": {
+  "lines": [],
+  "elapsed": 0.0
+ },
+ "stack2": {
+  "lines": [],
+  "elapsed": 0.0
+ },
+ "stack3": {
+  "lines": [
+   [
+    0.042,
+    "pushed 400000, popped 400000, empty now: true"
+   ]
+  ],
+  "elapsed": 0.044
+ },
+ "order": {
+  "lines": [
+   [
+    0.001,
+    "bell rang, meal = 42"
+   ]
+  ],
+  "elapsed": 0.002
+ },
+ "_env": {
+  "python": "3.13.5",
+  "rustc": "rustc 1.85.1 (4eb161250 2025-03-15) (built from a source tarball)",
+  "cpus": 8,
+  "cpu": "Intel(R) Xeon(R) Processor",
+  "when": "2026-11-22 20:39 WAT"
+ }
+}
