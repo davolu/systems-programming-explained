@@ -8,9 +8,10 @@ Small, runnable examples from David Oluyale's Agentic AI Hub video series. Every
 | 1 | [Make Your Python Code 20x Faster (Threads vs Processes Explained)](https://youtu.be/dLdfrp02n6A) | [Threads, processes, locks and asyncio](01-threads-vs-processes/) |
 | 2 | [Lock-Free Code Explained: How Fast Programs Share Data Without Locks](https://youtu.be/FL4Ts9LfBJk) | [Atomics, CAS, a lock-free stack and memory ordering (Rust)](02-lock-free/) |
 | 3 | [Why Concurrent Programs Break: Race Conditions, Deadlocks and Linearizability](https://youtu.be/2NCCn2o42EA) | [Races, deadlocks and a linearizability checker (Python + Rust)](03-race-conditions/) |
-| 4 | Distributed Systems Explained: Consensus, Replication, Transactions and Idempotency | [Idempotency keys, SQLite transactions and a 3-node majority cluster (Python)](04-distributed-systems/) |
+| 4 | [Distributed Systems Explained: Consensus, Replication, Transactions and Idempotency](https://youtu.be/fni53-4dPGk) | [Idempotency keys, SQLite transactions and a 3-node majority cluster (Python)](04-distributed-systems/) |
+| 5 | How Databases Survive Crashes: Write-Ahead Logs and Recovery Explained | [A write-ahead log, torn-write recovery, fsync timing and checkpoints (Python)](05-database-internals/) |
 
-Next in the video series: **write-ahead logs, crash recovery and database internals**. Code for later parts will be added with those tutorials.
+Next in the video series: **compilers, parsers, interpreters and virtual machines**. Code for later parts will be added with those tutorials.
 
 - [Playlist](https://www.youtube.com/playlist?list=PLZaDePzkCIxo)
 - [Agentic AI Hub](https://www.youtube.com/@AgenticAIHub1)

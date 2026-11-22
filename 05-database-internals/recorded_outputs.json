@@ -1,0 +1,47 @@
+{
+  "kv2": {
+    "cmd": "python3 forget.py",
+    "returncode": 0,
+    "elapsed_s": 0.042,
+    "stdout": [
+      "  before crash: {'ada': 70, 'bob': 50}",
+      "MemStore: exit code 1, after restart: {}",
+      "  before crash: {'ada': 70, 'bob': 50}",
+      "LogStore: exit code 1, after restart: {'ada': 70, 'bob': 50}"
+    ]
+  },
+  "torn2": {
+    "cmd": "python3 torn_write.py",
+    "returncode": 0,
+    "elapsed_s": 0.032,
+    "stdout": [
+      "log ends with: '[\"bob\", 50]\\n1276601663 ['",
+      "naive replay crashed: JSONDecodeError",
+      "checked replay: kept 2 good entries -> {'ada': 100, 'bob': 50}"
+    ]
+  },
+  "fsync": {
+    "cmd": "python3 fsync_cost.py",
+    "returncode": 0,
+    "elapsed_s": 0.095,
+    "stdout": [
+      "fsync=False: 1000 log writes in 1 ms (1 µs each)",
+      "fsync=True: 1000 log writes in 80 ms (80 µs each)"
+    ]
+  },
+  "cp2": {
+    "cmd": "python3 checkpoint.py",
+    "returncode": 0,
+    "elapsed_s": 1.345,
+    "stdout": [
+      "full replay: 500,000 entries in 0.42 s",
+      "from checkpoint: 0.001 s, same result as a full replay: True"
+    ]
+  },
+  "_conditions": {
+    "python": "3.13.5",
+    "cpus": 8,
+    "cpu": "Intel(R) Xeon(R) Processor",
+    "when": "2026-11-23 00:01 WAT"
+  }
+}
