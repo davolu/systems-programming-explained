@@ -1,0 +1,215 @@
+{
+ "dl_def": {
+  "lines": [],
+  "elapsed": 0.0
+ },
+ "dl_seq": {
+  "lines": [
+   [
+    1.0,
+    "file 1 done"
+   ],
+   [
+    2.0,
+    "file 2 done"
+   ],
+   [
+    3.001,
+    "file 3 done"
+   ],
+   [
+    4.001,
+    "file 4 done"
+   ],
+   [
+    5.001,
+    "file 5 done"
+   ],
+   [
+    6.001,
+    "file 6 done"
+   ],
+   [
+    7.001,
+    "file 7 done"
+   ],
+   [
+    8.001,
+    "file 8 done"
+   ],
+   [
+    9.001,
+    "file 9 done"
+   ],
+   [
+    10.001,
+    "file 10 done"
+   ],
+   [
+    11.002,
+    "file 11 done"
+   ],
+   [
+    12.002,
+    "file 12 done"
+   ],
+   [
+    13.002,
+    "file 13 done"
+   ],
+   [
+    14.002,
+    "file 14 done"
+   ],
+   [
+    15.002,
+    "file 15 done"
+   ],
+   [
+    16.002,
+    "file 16 done"
+   ],
+   [
+    17.003,
+    "file 17 done"
+   ],
+   [
+    18.003,
+    "file 18 done"
+   ],
+   [
+    19.003,
+    "file 19 done"
+   ],
+   [
+    20.003,
+    "file 20 done"
+   ],
+   [
+    20.003,
+    "One cook: 20.0 seconds"
+   ]
+  ],
+  "elapsed": 20.003
+ },
+ "dl_threads": {
+  "lines": [
+   [
+    1.016,
+    "['file 1 done', 'file 2 done', 'file 3 done'] ..."
+   ],
+   [
+    1.016,
+    "Many cooks: 1.0 seconds"
+   ]
+  ],
+  "elapsed": 1.016
+ },
+ "chop_def": {
+  "lines": [],
+  "elapsed": 0.0
+ },
+ "cpu_threads": {
+  "lines": [
+   [
+    2.34,
+    "One cook:    2.3 s"
+   ],
+   [
+    4.817,
+    "8 threads:   2.5 s"
+   ]
+  ],
+  "elapsed": 4.817
+ },
+ "cpu_procs": {
+  "lines": [
+   [
+    0.024,
+    "CPU cores on this machine: 8"
+   ],
+   [
+    0.447,
+    "8 processes: 0.4 s"
+   ]
+  ],
+  "elapsed": 0.447
+ },
+ "race": {
+  "lines": [
+   [
+    0.055,
+    "Expected 5000, got 1006"
+   ]
+  ],
+  "elapsed": 0.055
+ },
+ "lock": {
+  "lines": [
+   [
+    0.307,
+    "Expected 5000, got 5000"
+   ]
+  ],
+  "elapsed": 0.307
+ },
+ "dead_def": {
+  "lines": [],
+  "elapsed": 0.0
+ },
+ "dead_run": {
+  "lines": [
+   [
+    0.0,
+    "Opposite order:"
+   ],
+   [
+    2.101,
+    "Cook A is stuck: deadlock!"
+   ],
+   [
+    2.101,
+    "Cook B finished"
+   ],
+   [
+    2.101,
+    "Same order:"
+   ],
+   [
+    2.202,
+    "Cook A finished"
+   ],
+   [
+    2.302,
+    "Cook B finished"
+   ]
+  ],
+  "elapsed": 2.302
+ },
+ "async": {
+  "lines": [
+   [
+    1.003,
+    "20 files in 1.0 s, on 1 thread"
+   ]
+  ],
+  "elapsed": 1.003
+ },
+ "agent": {
+  "lines": [
+   [
+    4.505,
+    "One by one: 4.5 s"
+   ],
+   [
+    6.507,
+    "Parallel:   2.0 s"
+   ]
+  ],
+  "elapsed": 6.507
+ },
+ "_env": {
+  "python": "3.13.5",
+  "when": "2026-11-22 20:01:04 WAT"
+ }
+}
