@@ -1,0 +1,103 @@
+{
+ "counter": {
+  "lines": [
+   [
+    0.064,
+    "safe=False: expected 2000, got 1000"
+   ],
+   [
+    0.176,
+    "safe=True: expected 2000, got 2000"
+   ]
+  ],
+  "elapsed": 0.18,
+  "rc": 0
+ },
+ "bank1": {
+  "lines": [],
+  "elapsed": 0.0
+ },
+ "bank2": {
+  "lines": [
+   [
+    1.422,
+    "withdraw: 1000 of 1000 days went negative, balances seen: [-60]"
+   ],
+   [
+    2.761,
+    "safe_withdraw: 0 of 1000 days went negative, balances seen: [20]"
+   ]
+  ],
+  "elapsed": 2.764,
+  "rc": 0
+ },
+ "abank1": {
+  "lines": [],
+  "elapsed": 0.0
+ },
+ "abank2": {
+  "lines": [
+   [
+    0.977,
+    "withdraw:      2056 of 20000 went negative"
+   ],
+   [
+    1.976,
+    "safe_withdraw: 0 of 20000 went negative"
+   ]
+  ],
+  "elapsed": 1.976,
+  "rc": 0
+ },
+ "dead1": {
+  "lines": [],
+  "elapsed": 0.0
+ },
+ "dead2": {
+  "lines": [
+   [
+    2.113,
+    "same_order=False: ['stuck', 'done'], Ada 110, Bob 90, 2.1 s"
+   ],
+   [
+    2.314,
+    "same_order=True: ['done', 'done'], Ada 80, Bob 120, 0.2 s"
+   ]
+  ],
+  "elapsed": 2.317,
+  "rc": 0
+ },
+ "tick1": {
+  "lines": [],
+  "elapsed": 0.0
+ },
+ "tick2": {
+  "lines": [
+   [
+    0.024,
+    "safe=False: 1600 tickets, 1378 duplicates, 1202 out of order"
+   ],
+   [
+    0.024,
+    "   sequence 1..1600: False -> NOT linearizable"
+   ],
+   [
+    0.123,
+    "safe=True: 1600 tickets, 0 duplicates, 0 out of order"
+   ],
+   [
+    0.123,
+    "   sequence 1..1600: True -> linearizable"
+   ]
+  ],
+  "elapsed": 0.125,
+  "rc": 0
+ },
+ "_env": {
+  "python": "3.13.5",
+  "rustc": "rustc 1.85.1 (4eb161250 2025-03-15) (built from a source tarball)",
+  "cpus": 8,
+  "cpu": "Intel(R) Xeon(R) Processor",
+  "when": "2026-11-22 22:00 WAT"
+ }
+}
