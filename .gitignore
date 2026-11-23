@@ -11,3 +11,4 @@ checkpoint.json
 arena_c
 repeats.txt
 random.bin
+.mypy_cache/

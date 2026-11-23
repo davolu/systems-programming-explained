@@ -14,8 +14,9 @@ Small, runnable examples from David Oluyale's Agentic AI Hub video series. Every
 | 7 | Systems Programming Explained: Memory, Allocators, File Formats and Protocols | [A tiny binary format, a bump allocator (Python + a short C demo), and a socket protocol](07-low-level-systems/) |
 | 8 | How Compression Works: DEFLATE, Huffman and LZ77 Explained | [Run-length encoding, a tiny LZ77-style pointer, Huffman codes, and zlib DEFLATE (Python)](08-compression/) |
 | 9 | Make Programs Faster: Profiling, Caches and Vectorization Explained | [cProfile, row vs column sums, and a Python loop vs a NumPy add](09-performance/) |
+| 10 | Catch Bugs Before You Run: Types, Static Analysis and Program Verification | [mypy on a typed greet, a 20-line AST linter, and exhaustive checks of withdraw (Python)](10-static-analysis/) |
 
-Next in the video series: **Catch Bugs Before You Run: Types, Static Analysis and Program Verification**. Code for later parts will be added with those tutorials.
+This is the complete companion-code set for the ten-video series.
 
 - [Playlist](https://www.youtube.com/playlist?list=PLZaDePzkCIxo)
 - [Agentic AI Hub](https://www.youtube.com/@AgenticAIHub1)
