@@ -1,0 +1,100 @@
+{
+ "box1": {
+  "lines": [],
+  "elapsed": 0.0
+ },
+ "box2": {
+  "lines": [
+   [
+    0.008,
+    "file bytes: 4c 42 4f 58 00 00 00 05 68 65 6c 6c 6f"
+   ],
+   [
+    0.008,
+    "whole file as text: 'LBOX\\x00\\x00\\x00\\x05hello'"
+   ],
+   [
+    0.008,
+    "read_box (uses the header): b'hello'"
+   ],
+   [
+    0.008,
+    "wrong magic: bad magic: b'XXXX'"
+   ]
+  ],
+  "elapsed": 0.01,
+  "rc": 0
+ },
+ "arena1": {
+  "lines": [],
+  "elapsed": 0.0
+ },
+ "arena2": {
+  "lines": [
+   [
+    0.043,
+    "arena: 50000 blocks of 16 bytes in 30.5 ms, used=800000"
+   ],
+   [
+    0.044,
+    "separate bytearrays: 50000 blocks in 5.4 ms"
+   ],
+   [
+    0.044,
+    "after reset, used=0 (the row is free again)"
+   ],
+   [
+    0.044,
+    "sanity: first arena block is 16 bytes, first separate block is 16 bytes"
+   ]
+  ],
+  "elapsed": 0.069,
+  "rc": 0
+ },
+ "c1": {
+  "lines": [],
+  "elapsed": 0.0
+ },
+ "c2": {
+  "lines": [
+   [
+    0.032,
+    "a at offset 0, b at offset 8, used 16"
+   ],
+   [
+    0.032,
+    "after reset, used 0"
+   ]
+  ],
+  "elapsed": 0.032,
+  "rc": 0
+ },
+ "net1": {
+  "lines": [],
+  "elapsed": 0.0
+ },
+ "net2": {
+  "lines": [
+   [
+    0.017,
+    "sent:    REQUEST hello"
+   ],
+   [
+    0.017,
+    "parsed:  command='RESPONSE', body='hello'"
+   ],
+   [
+    0.017,
+    "reply:   RESPONSE hello"
+   ]
+  ],
+  "elapsed": 0.019,
+  "rc": 0
+ },
+ "_env": {
+  "python": "3.13.5",
+  "cpus": 8,
+  "cpu": "Intel(R) Xeon(R) Processor",
+  "when": "2026-11-23 11:49 WAT"
+ }
+}

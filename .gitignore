@@ -7,3 +7,5 @@ target/
 *.db
 *.log
 checkpoint.json
+*.lbox
+arena_c
