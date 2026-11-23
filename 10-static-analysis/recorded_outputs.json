@@ -1,0 +1,140 @@
+{
+ "bug1": {
+  "lines": [
+   [
+    0.008,
+    "Hello, Maya!"
+   ],
+   [
+    0.009,
+    "runtime error: TypeError: can only concatenate str (not \"NoneType\") to str"
+   ]
+  ],
+  "elapsed": 0.009,
+  "rc": 0
+ },
+ "types1": {
+  "lines": [],
+  "elapsed": 0.0
+ },
+ "types2": {
+  "lines": [
+   [
+    0.85,
+    "greet_typed.py:5: error: Argument 1 to \"greet\" has incompatible type \"None\"; expected \"str\"  [arg-type]"
+   ]
+  ],
+  "elapsed": 0.857,
+  "rc": 1
+ },
+ "lint1": {
+  "lines": [],
+  "elapsed": 0.0
+ },
+ "lint2": {
+  "lines": [
+   [
+    0.017,
+    "sample functions:"
+   ],
+   [
+    0.017,
+    ""
+   ],
+   [
+    0.017,
+    "def add(a, b):"
+   ],
+   [
+    0.017,
+    "    leftover = a + b"
+   ],
+   [
+    0.017,
+    "    total = a + b"
+   ],
+   [
+    0.017,
+    "    return total"
+   ],
+   [
+    0.017,
+    ""
+   ],
+   [
+    0.017,
+    "def greet(name):"
+   ],
+   [
+    0.017,
+    "    message = \"Hello, \" + name"
+   ],
+   [
+    0.017,
+    ""
+   ],
+   [
+    0.017,
+    "linter findings:"
+   ],
+   [
+    0.017,
+    "  line 2: unused variable 'leftover' in 'add'"
+   ],
+   [
+    0.017,
+    "  line 7: function 'greet' has no return"
+   ],
+   [
+    0.017,
+    "  line 7: unused variable 'message' in 'greet'"
+   ]
+  ],
+  "elapsed": 0.02,
+  "rc": 0
+ },
+ "ver1": {
+  "lines": [],
+  "elapsed": 0.0
+ },
+ "ver2": {
+  "lines": [
+   [
+    0.008,
+    "handwritten tests:"
+   ],
+   [
+    0.008,
+    "  withdraw(10, 3) buggy=7 ok=7"
+   ],
+   [
+    0.008,
+    "  withdraw(10, 0) buggy=10 ok=10"
+   ],
+   [
+    0.008,
+    "  withdraw(5, 5) buggy=0 ok=0"
+   ],
+   [
+    0.008,
+    "exhaustive check: 11 balances x 11 amounts = 121 cases"
+   ],
+   [
+    0.008,
+    "buggy failures: 55, first few: [(0, 1, -1), (0, 2, -2), (0, 3, -3)]"
+   ],
+   [
+    0.008,
+    "ok failures: 0"
+   ]
+  ],
+  "elapsed": 0.01,
+  "rc": 0
+ },
+ "_env": {
+  "python": "3.13.5",
+  "cpus": 8,
+  "cpu": "Intel(R) Xeon(R) Processor",
+  "when": "2026-11-23 11:48 WAT"
+ }
+}
