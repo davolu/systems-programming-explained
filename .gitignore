@@ -9,3 +9,5 @@ target/
 checkpoint.json
 *.lbox
 arena_c
+repeats.txt
+random.bin
