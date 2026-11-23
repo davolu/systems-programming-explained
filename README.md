@@ -9,9 +9,10 @@ Small, runnable examples from David Oluyale's Agentic AI Hub video series. Every
 | 2 | [Lock-Free Code Explained: How Fast Programs Share Data Without Locks](https://youtu.be/FL4Ts9LfBJk) | [Atomics, CAS, a lock-free stack and memory ordering (Rust)](02-lock-free/) |
 | 3 | [Why Concurrent Programs Break: Race Conditions, Deadlocks and Linearizability](https://youtu.be/2NCCn2o42EA) | [Races, deadlocks and a linearizability checker (Python + Rust)](03-race-conditions/) |
 | 4 | [Distributed Systems Explained: Consensus, Replication, Transactions and Idempotency](https://youtu.be/fni53-4dPGk) | [Idempotency keys, SQLite transactions and a 3-node majority cluster (Python)](04-distributed-systems/) |
-| 5 | How Databases Survive Crashes: Write-Ahead Logs and Recovery Explained | [A write-ahead log, torn-write recovery, fsync timing and checkpoints (Python)](05-database-internals/) |
+| 5 | [How Databases Survive Crashes: Write-Ahead Logs and Recovery Explained](https://youtu.be/-l_xC6ECaoc) | [A write-ahead log, torn-write recovery, fsync timing and checkpoints (Python)](05-database-internals/) |
+| 6 | How Programming Languages Work: Compilers, Parsers, Interpreters and VMs | [A tiny lexer, parser, interpreter and stack VM for 2 + 3 * 4 (Python)](06-compilers/) |
 
-Next in the video series: **compilers, parsers, interpreters and virtual machines**. Code for later parts will be added with those tutorials.
+Next in the video series: **Systems Programming Explained: Memory, Allocators, File Formats and Protocols**. Code for later parts will be added with those tutorials.
 
 - [Playlist](https://www.youtube.com/playlist?list=PLZaDePzkCIxo)
 - [Agentic AI Hub](https://www.youtube.com/@AgenticAIHub1)
