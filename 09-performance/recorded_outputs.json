@@ -1,0 +1,94 @@
+{
+ "prof1": {
+  "lines": [],
+  "elapsed": 0.0
+ },
+ "prof2": {
+  "lines": [
+   [
+    0.028,
+    "N = 30000"
+   ],
+   [
+    1.755,
+    "count_in_list: result=30000 in 1727.2 ms"
+   ],
+   [
+    1.758,
+    "count_in_set: result=30000 in 2.8 ms"
+   ],
+   [
+    3.472,
+    "cProfile (separate run, time inside each function):"
+   ],
+   [
+    3.472,
+    "  count_in_list: 1.711 s"
+   ],
+   [
+    3.472,
+    "  count_in_set: 0.003 s"
+   ]
+  ],
+  "elapsed": 3.479,
+  "rc": 0
+ },
+ "cache1": {
+  "lines": [],
+  "elapsed": 0.0
+ },
+ "cache2": {
+  "lines": [
+   [
+    0.339,
+    "grid: 4000 x 4000, dtype=float64, C-order=True"
+   ],
+   [
+    0.339,
+    "sum rows:    0.019 s, total=127999992000000"
+   ],
+   [
+    0.339,
+    "sum columns: 0.122 s, total=127999992000000"
+   ],
+   [
+    0.339,
+    "same total: True"
+   ]
+  ],
+  "elapsed": 0.355,
+  "rc": 0
+ },
+ "vec1": {
+  "lines": [],
+  "elapsed": 0.0
+ },
+ "vec2": {
+  "lines": [
+   [
+    0.4,
+    "N = 2000000"
+   ],
+   [
+    0.4,
+    "Python loop: 0.106 s, first three [2000000, 2000002, 2000004]"
+   ],
+   [
+    0.4,
+    "NumPy add:   0.006 s, first three [2000000 2000002 2000004]"
+   ],
+   [
+    0.4,
+    "same result: True"
+   ]
+  ],
+  "elapsed": 0.519,
+  "rc": 0
+ },
+ "_env": {
+  "python": "3.13.5",
+  "cpus": 8,
+  "cpu": "Intel(R) Xeon(R) Processor",
+  "when": "2026-11-23 11:49 WAT"
+ }
+}
