@@ -11,8 +11,9 @@ Small, runnable examples from David Oluyale's Agentic AI Hub video series. Every
 | 4 | [Distributed Systems Explained: Consensus, Replication, Transactions and Idempotency](https://youtu.be/fni53-4dPGk) | [Idempotency keys, SQLite transactions and a 3-node majority cluster (Python)](04-distributed-systems/) |
 | 5 | [How Databases Survive Crashes: Write-Ahead Logs and Recovery Explained](https://youtu.be/-l_xC6ECaoc) | [A write-ahead log, torn-write recovery, fsync timing and checkpoints (Python)](05-database-internals/) |
 | 6 | How Programming Languages Work: Compilers, Parsers, Interpreters and VMs | [A tiny lexer, parser, interpreter and stack VM for 2 + 3 * 4 (Python)](06-compilers/) |
+| 7 | Systems Programming Explained: Memory, Allocators, File Formats and Protocols | [A tiny binary format, a bump allocator (Python + a short C demo), and a socket protocol](07-low-level-systems/) |
 
-Next in the video series: **Systems Programming Explained: Memory, Allocators, File Formats and Protocols**. Code for later parts will be added with those tutorials.
+Next in the video series: **How Compression Works: DEFLATE, Huffman and LZ77 Explained**. Code for later parts will be added with those tutorials.
 
 - [Playlist](https://www.youtube.com/playlist?list=PLZaDePzkCIxo)
 - [Agentic AI Hub](https://www.youtube.com/@AgenticAIHub1)
