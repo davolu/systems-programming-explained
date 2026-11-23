@@ -1,0 +1,94 @@
+{
+ "rle1": {
+  "lines": [],
+  "elapsed": 0.0
+ },
+ "rle2": {
+  "lines": [
+   [
+    0.011,
+    "original: AAAAAABBBBCC len 12"
+   ],
+   [
+    0.011,
+    "encoded: [('A', 6), ('B', 4), ('C', 2)] packed size 6"
+   ],
+   [
+    0.011,
+    "decoded: AAAAAABBBBCC match True"
+   ],
+   [
+    0.011,
+    "original: THE QUICK BROWN FOX len 19"
+   ],
+   [
+    0.011,
+    "encoded: [('T', 1), ('H', 1), ('E', 1), (' ', 1), ('Q', 1), ('U', 1), ('I', 1), ('C', 1), ('K', 1), (' ', 1), ('B', 1), ('R', 1), ('O', 1), ('W', 1), ('N', 1), (' ', 1), ('F', 1), ('O', 1), ('X', 1)] packed size 38"
+   ],
+   [
+    0.011,
+    "decoded: THE QUICK BROWN FOX match True bigger? True"
+   ]
+  ],
+  "elapsed": 0.013,
+  "rc": 0
+ },
+ "lz1": {
+  "lines": [],
+  "elapsed": 0.0
+ },
+ "lz2": {
+  "lines": [
+   [
+    0.012,
+    "original: peanut butter and peanut butter toast"
+   ],
+   [
+    0.012,
+    "encoded: peanut butter and <18,13> toast pointer: (18, 13)"
+   ],
+   [
+    0.012,
+    "decoded: peanut butter and peanut butter toast match True"
+   ],
+   [
+    0.012,
+    "frequencies: {'S': 6, 'E': 4, 'L': 4, 'H': 2, 'A': 1}"
+   ],
+   [
+    0.012,
+    "codes: {'E': '01', 'L': '10', 'S': '11', 'A': '000', 'H': '001'}"
+   ]
+  ],
+  "elapsed": 0.012,
+  "rc": 0
+ },
+ "def1": {
+  "lines": [],
+  "elapsed": 0.0
+ },
+ "def2": {
+  "lines": [
+   [
+    0.016,
+    "both files start at 28000 bytes"
+   ],
+   [
+    0.017,
+    "repeats.txt: 28000 -> 94 bytes (0.003 of original), compress 0.23 ms, decompress 0.04 ms, match True"
+   ],
+   [
+    0.017,
+    "random.bin: 28000 -> 28016 bytes (1.001 of original), compress 0.43 ms, decompress 0.02 ms, match True"
+   ]
+  ],
+  "elapsed": 0.02,
+  "rc": 0
+ },
+ "_env": {
+  "python": "3.13.5",
+  "cpus": 8,
+  "cpu": "Intel(R) Xeon(R) Processor",
+  "when": "2026-11-23 11:48 WAT"
+ }
+}
